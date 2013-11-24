@@ -1,5 +1,10 @@
 #!/usr/bin/python2.7
 
+# Python - CSRFGenerator
+# Author: Sebastian Neef - Internetwache.org
+# Twitter: @internetwache
+# Comment: Happy Hacking!
+
 import sys
 import urllib
 
@@ -163,24 +168,22 @@ class CSRFGenerator(object):
 
 def usage():
     desc = \
-    """
-[*] Usage: ./""" + sys.argv[0] + """ [Request] [PoC]
-[-] Request: File containing the HTTP-Request - Default: csrf.txt
+    """[*] Usage: ./""" + sys.argv[0] + """ [PoC]
 [-] PoC: File to write the CSRF PoC - Default: csrf.html
     """
     print desc
 
 def main():
     print "[*] Started CSRFGen"
-    print "[*] Use -h/--help for more information"
-    try:
+
+    if len(sys.argv) == 2:
         if ((sys.argv[1]=="-h") or (sys.argv[1]=="--help")):
             usage()
-            sys.exit(0)
-    except:
-        pass
+            sys.exit(1)
 
-    if len(sys.argv) >= 1:
+    print "[*] Use -h/--help for more information"
+
+    if len(sys.argv) == 2:
         csrf_poc_file = sys.argv[1]
     else:
         csrf_poc_file = "csrf.html"
